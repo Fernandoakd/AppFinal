@@ -1,7 +1,12 @@
 package com.example.carritojenkins.test;
 
-import Clases.*;
-import Excepciones.*;
+
+import com.example.carritojenkins.entities.Carrito;
+import com.example.carritojenkins.entities.DetalleProducto;
+import com.example.carritojenkins.entities.Producto;
+import com.example.carritojenkins.entities.Usuario;
+import com.example.carritojenkins.exceptions.CantidadDebeSerMayorACeroException;
+import com.example.carritojenkins.exceptions.NoSePuedeCrearUnCarritoVacioException;
 import org.junit.Before;
 import org.junit.Test;
 

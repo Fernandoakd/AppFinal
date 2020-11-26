@@ -1,6 +1,10 @@
 package com.example.carritojenkins.test;
 
-import Clases.*;
+
+import com.example.carritojenkins.entities.Carrito;
+import com.example.carritojenkins.entities.DetalleProducto;
+import com.example.carritojenkins.entities.Producto;
+import com.example.carritojenkins.entities.Usuario;
 import org.junit.Before;
 import org.junit.Test;
 
