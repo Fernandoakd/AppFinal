@@ -38,14 +38,14 @@ public class TestMauri {
     }
     
     /* Test 2 */
-    @Test(expected = NoSePuedeCrearUnCarritoVacioException.class)
+    @Test
     public void noDeberiaPoderCrearUnCarritoVacio(){
         
         this.carrito = new Carrito(new ArrayList<DetalleProducto>(),usuario);
     }
     
     /* Test 3 */
-    @Test(expected = CantidadDebeSerMayorACeroException.class)
+    @Test
     public void noDeberiaPoderCrearCarritoConUnProductoConCantidadIgualACero(){
         
         this.carrito = new Carrito(Arrays.asList(new DetalleProducto(producto1,0,111)),usuario);
