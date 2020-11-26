@@ -8,7 +8,7 @@ import com.example.carritojenkins.entities.Usuario;
 import com.example.carritojenkins.exceptions.CantidadDebeSerMayorACeroException;
 import com.example.carritojenkins.exceptions.NoSePuedeCrearUnCarritoVacioException;
 import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
