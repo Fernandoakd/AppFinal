@@ -64,6 +64,6 @@ public class TestFernando {
         detalles = Arrays.asList(new DetalleProducto(producto1,5,111),new DetalleProducto(producto2,8,222));
         this.carrito = new Carrito(detalles,usuario);
         
-        assertEquals(690,carrito.montoTotalSinEnvio());
+        assertEquals(500,carrito.montoTotalSinEnvio());
     }
 }
