@@ -7,6 +7,7 @@ import com.example.carritojenkins.entities.Producto;
 import com.example.carritojenkins.entities.Usuario;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.Arrays;
 import java.util.List;
@@ -23,6 +24,7 @@ import static org.junit.Assert.assertEquals;
  *
  * @author agust
  */
+@SpringBootTest
 public class TestAgustin {
     Carrito carrito = null;
     Producto producto1 = null;
